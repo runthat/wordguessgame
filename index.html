@@ -1,2 +1,65 @@
+<!DOCTYPE html>
+<html>
 
-<script src="assets/js/game.js"></script>
+<head>
+    <meta charset="utf-8"></meta>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Word Guess Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/reset.css"> 
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="icon" href="assets/images/car-flat.png" >
+   
+</head>
+    <body>       
+        <div class="heading">
+            <h1>CARS CARS & MORE CARS</h1>
+        </div>
+        <div class="background">
+                <div class="container">                       
+                    <h2>Click Here & Guess This Word!</h2>
+                    <div>
+                        <img id="image"  width="40%" height="200">
+                    </div>
+                    <div>
+                        <h3 id="currentword">_ _ _ _ _</h3>
+                    </div>
+                    <div id="scoreboard">
+                        <div class="sidebar">
+                            <h3>GUESSES LEFT:
+                                <span id="guessesremaining"></span>
+                            </h3>
+                        </div>
+    
+                        <div class="sidebar">
+                            <h3>WINS:
+                                <span id="winstracker"></span>
+                            </h3>
+                        </div>
+                        <div class="sidebar">
+                            <h3>LOSSES:
+                                <span id="losstracker"></span>
+                            </h3>
+                        </div>
+    
+                        <div class="sidebar">
+                            <h3>LETTERS YOU GUESSED WRONG:
+                                <span id="playerguesses"></span>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+    <div data-video="iNd-tvuJEIk"  
+    data-autoplay="1"         
+    data-loop="1"             
+    id="youtube-audio">
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="https://cdn.rawgit.com/labnol/files/master/yt.js"></script>
+    </div>
+    <script src="assets/javascript/game.js"></script>
+    
+</html>
